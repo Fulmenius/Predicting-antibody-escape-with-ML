@@ -53,7 +53,7 @@ In our work we have used two types of models: those that work directly with one-
 
 #### One-hot-encoding-based models
 ##### CNN
-We've used CNN with 2 convolutional layers and 2 fully connected layers, with BatchNorm and MaxPooling applied between the convolutional layers. The network's architecture can be seen at the illuststation below.
+We've used CNN with 2 convolutional layers and 2 fully connected layers, with BatchNorm and MaxPooling applied between the convolutional layers. The network's architecture can be seen at the illuststation below. The model (not pre-trained) can be found in the /models folder.
 ![Figure 1: ConvNet architecture](/models/convnet_architecture.png)
 
 ##### XGBoost
@@ -71,13 +71,15 @@ We've used XGBoost model with the following parameters:
 
 #### ProtT5-based models
 ##### CNN
+The network's architecture can be seen at the illuststation below.
+The model (not pre-trained) can be found in the /models folder.
 ![Figure 2: ConvNet1D architecture](/models/convnet1d_architecture.png)
 
 ##### XGBoost
 Parameters of XGBoost were the same as in the first example
 
 ## Results
-Contrary to our expectations, 
+Contrary to our expectations, the vector representation not only didn't increase the average ROC/AUC score of the model, but decreased it, not much, but statistically significantly, for all pairs as per Welch's t-test. However, it also reduced the variance in prediction quality dramatically, making the model much more reliable. 
 
 ![Figure 3](/results/20_epochs_final_plot.png)
 ![Figure 4](/results/10_epochs_final_plot.png)
@@ -85,4 +87,5 @@ Contrary to our expectations,
 
 
 ## Discussion
+
 
