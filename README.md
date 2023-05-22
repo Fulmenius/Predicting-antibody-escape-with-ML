@@ -53,20 +53,31 @@ In our work we have used two types of models: those that work directly with one-
 
 #### One-hot-encoding-based models
 ##### CNN
+We've used CNN with 2 convolutional layers and 2 fully connected layers, with BatchNorm and MaxPooling applied between the convolutional layers. The network's architecture can be seen at the illuststation below.
 
 ##### XGBoost
-
-##### LSTM
+We've used XGBoost model with the following parameters:
+        objective="binary:logistic", 
+        random_state=42,
+        max_depth=6,
+        learning_rate=0.1,
+        n_estimators=500,
+        subsample=0.8,
+        colsample_bytree=0.8,
+        min_child_weight=9,
+        gamma=1,
+        reg_alpha=0.005
 
 #### ProtT5-based models
 ##### CNN
 
-##### LSTM
-
 ##### XGBoost
-
+Parameters of XGBoost were the same as in the first example
 
 ## Results
+![Figure 1](/results/20_epochs_final_plot.png)
+![Figure 2](/results/10_epochs_final_plot.png)
+![Figure 3](/results/10_epochs_final_plot.png)
 
 
 ## Discussion
