@@ -89,8 +89,16 @@ For some reason, the XGBoost model we used was completely unable to learn the pa
 ![Figure 4](/results/10_epochs_final_plot.png)
 ![Figure 5](/results/5_epochs_final_plot.png)
 
-
 ## Discussion
+The results are inconclusive. A more comprehensive study would address the following questions:
+
+1) Why is XGBoost unable to learn the pattern of binding?  
+
+The answer to this question probably lies in the author's poor experience in using the XGBoost library. Hyperparamters optimization for XGBoost would certainly improve the results.
+
+2) Is the lack of increase in average prediction quality for CNN due to the suboptimal architecture? Could the regular fully connected classifier or random forest work better? 
+
+There is certainly at least some room for optimizing the prediction quality, as demonstrated by my collegues. 
 
 ## Literature
 [T] Predictive profiling of SARS-CoV-2 variants by deep mutational learning
