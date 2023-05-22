@@ -92,7 +92,11 @@ Contrary to our expectations, the vector representation not only didn't increase
 [T] Predictive profiling of SARS-CoV-2 variants by deep mutational learning
 Joseph M. Taft, Cédric R. Weber, Beichen Gao, Roy A. Ehling, Jiami Han, Lester Frei, Sean W. Metcalfe, Alexander Yermanos, William Kelton, Sai T. Reddy
 bioRxiv 2021.12.07.471580; doi: https://doi.org/10.1101/2021.12.07.471580 
+
 [E] Elnaggar A, Heinzinger M, Dallago C, Rehawi G, Wang Y, Jones L, Gibbs T, Feher T, Angerer C, Steinegger M, Bhowmik D, Rost B. ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning. IEEE Trans Pattern Anal Mach Intell. 2022 Oct;44(10):7112-7127. doi: 10.1109/TPAMI.2021.3095381. Epub 2022 Sep 14. PMID: 34232869.
+
 [Y] Boder, Eric T.; Wittrup, K. Dane (1997). "Yeast surface display for screening combinatorial polypeptide libraries". Nature Biotechnology. 15 (6): 553–557. doi:10.1038/nbt0697-553.
+
 [CT23] Murakami, N., Hayden, R., Hills, T. et al. Therapeutic advances in COVID-19. Nat Rev Nephrol 19, 38–52 (2023). https://doi.org/10.1038/s41581-022-00642-4
+
 [V] Efficacy of SARS-CoV-2 vaccines and the dose–response relationship with three major antibodies: a systematic review and meta-analysis of randomised controlled trials, Yang et al., The Lancet, 2023
