@@ -75,9 +75,10 @@ We've used XGBoost model with the following parameters:
 Parameters of XGBoost were the same as in the first example
 
 ## Results
+
 ![Figure 1](/results/20_epochs_final_plot.png)
 ![Figure 2](/results/10_epochs_final_plot.png)
-![Figure 3](/results/10_epochs_final_plot.png)
+![Figure 3](/results/5_epochs_final_plot.png)
 
 
 ## Discussion
