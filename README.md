@@ -76,10 +76,12 @@ The model (not pre-trained) can be found in the /models folder.
 ![Figure 2: ConvNet1D architecture](/models/convnet1d_architecture.png)
 
 ##### XGBoost
-Parameters of XGBoost were the same as in the first example
+Parameters of XGBoost were the same as in the first example.
 
 ## Results
-Contrary to our expectations, the vector representation not only didn't increase the average ROC/AUC score of the model, but decreased it, not much, but statistically significantly, for all pairs as per Welch's t-test. However, it also reduced the variance in prediction quality dramatically, making the model much more reliable. 
+Contrary to our expectations, the vector representation not only didn't increase the average ROC/AUC score of the model, but decreased it, not much, but statistically significantly, for all pairs as per Welch's $t$-test. However, it also reduced the variance in prediction quality dramatically, making the model much more reliable. Comparison of results for $5$, $10$ and $20$ epochs indicates, that the embedding model overfitting is not likely to be the case of the prediction quality decrease in the model with embedding, since the difference in average quality of prediction between one-hot-using and embedding-using CNN does not change significantly. However underfitting might theoretically be the case for the embedding using model.
+
+For some reason, the XGBoost model we used was completely unable to learn the pattern of binding. 
 
 ![Figure 3](/results/20_epochs_final_plot.png)
 ![Figure 4](/results/10_epochs_final_plot.png)
